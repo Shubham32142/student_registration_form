@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .main{
+    width: 100vw;
+    height: 100vh;
+  }
+  body{
+    background: url(images/background.jpg);
+    height: 115vh;
+  }
+  header h1{
+    color: white;
+    display: flex;
+    justify-content: center;    
+  }
+  /* main form */
+.fill-up{
+height: 80vh;
+}
+  .inner-fill-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .background{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px 50px;
+    border: 2px solid rgba(255,255,255,.5);
+    backdrop-filter: blur(70px);
+  }
+  .fill-up-name, .fill-up-id, .fill-up-email,.fill-up-roll,.fill-up-class,.fill-up-contact{
+  display: grid;
+  grid-template-columns: row;
+  gap: 5px;
+  }
+  .register{
+    width: 25vw;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding-left: 5px;
+    background-color: transparent;
+    outline:none;
+    color: white;
+    border-style: none none solid none;
+    border-color: white;
+  }
+#title{
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+}
+.submit-btn{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color:teal;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border: none;
+}
+.btn:hover{
+  background-color: red;
+}
+.upper-div{
+  height: 300px;
+  overflow:auto;
+  overflow-y: auto;
+}
+.table{
+  display: flex;
+  justify-content: center;
+}
+.table table{
+  border: 1px solid black;
+  /* padding-bottom: 10px; */
+  border-collapse: collapse;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 30px;
+  
+
+}
+.table table, th , td, tr{
+  border: 2px solid white;
+  padding: 5px 50px;
+
+}
+.button{
+  width: 3em;
+  height: 3em;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+}
+.button:hover{
+  background-color: rgb(75, 150, 142);
+}
+.edit-button{
+  background-color: transparent;
+  color: white;
+  border-style: none none solid none;
+  border-color: white;
+  outline: none;
+  width: auto;
+}
